@@ -1,0 +1,80 @@
+.login{
+    /* background-image: url('./images/discord_edi_brand.jpg'); */
+    background-image: url('https://cutewallpaper.org/21/background-gif-html/15-CSS-Animated-Backgrounds-Pintire.gif');
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.login__logo__container{
+    display: flex;
+    place-content: center;
+}
+
+.login__logo{
+    width: 150px;
+    
+    object-fit: contain;
+}
+.login__container > h2{
+    color: rgb(238, 235, 235);
+    text-align: center;
+}
+.login__container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border: 2px solid;
+    height: fit-content;
+    width: 300px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form__contents{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__contents > input{
+    height: 25px;
+    background-color: rgb(243, 228, 200);
+    margin-bottom: 10px;
+    margin-top: 2px;
+    padding: 3px;
+}
+.form__contents > button{
+    font-size: 15px;
+    font-weight: bold;
+    height: 32px;
+    background-color: black;
+    color: white;
+    margin-bottom: 13px;
+    margin-top: 5px;
+}
+.form__contents > button:hover{
+    background-color: rgb(61, 60, 60);
+}
+.login__registerButton:hover{
+    background-color: rgb(61, 60, 60);
+}
+.login__registerButton{
+    font-size: 15px;
+    font-weight: bold;
+    height: 32px;
+    background-color: black;
+    color: white;
+    
+    margin-top: 15px;
+}
+.login__container > p{
+    font-size: 13px;
+    font-weight: bold;
+}
+.google__signin {
+    margin: 7px auto 0px auto;
+    width: 300px;
+}
+.google__login{
+    width: 100%;
+    display: flex;
+    place-content: center;
+}

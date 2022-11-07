@@ -1,0 +1,9 @@
+.app{
+    overflow: hidden;
+    display: flex;
+    height: 92vh;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

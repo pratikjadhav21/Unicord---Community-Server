@@ -1,0 +1,29 @@
+.dashboard{
+    display: flex;
+    background-image: url('./images/discord_edi_brand.jpg');
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.dashboard > h3{
+    cursor: pointer;
+    color: white;
+    padding: 4px 0px 15px 15px;
+}
+/* ::-webkit-scrollbar{
+    display: none;
+} */
+
+.login__button{
+    height: 50px;
+    width: 200px;
+    margin-left: 220%;
+    margin-top: 80%;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+}
+.login__button:hover{
+    background-color: purple;
+}

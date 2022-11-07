@@ -1,0 +1,21 @@
+.profile__dp{
+    display: flex;
+    align-items: center;
+    /* background-color:#2f3135; */
+}
+.dp{
+    margin: 5px 5px 0px 10px;
+}
+.logout__button{
+    height: 30px;
+    width: 100px;
+    margin: 5px 5px 0px auto;
+    border: none;
+    background-color: rgba(211, 11, 11, 0.918);
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+}
+.logout__button:hover{
+    background-color: red;
+}
